@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seohee's Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+
+<body>
+    <main>
+        <!-- 토글 버튼 -->
+        <button class="gnb_toggle_btn" id="toggleBtn">
+            <a href="#">
+                <span class="tg_t"></span>
+                <span class="tg_m"></span>
+                <span class="tg_b"></span>
+            </a>
+        </button>
+        <!-- toggle 메뉴 -->
+        <nav class="m_menu" id="mobileMenu">
+            <div class="m_menu_list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </nav>
+
+        <!-- HEADER -->
+        <div class="intro_wrap">
+            <header class="header" >
+                <h1>HAN SEOHEE</h1>
+                <span>꿈꾸는 개발자가 되고싶은 한서희입니다.✨</span>
+            </header>
+
+            <!-- menu -->
+            <nav class="menu">
+                <ul class="menu_list row">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="photo_wrap">
+            <img src="images/me2.png" alt="사진" class="photo">
+            <h2 class="text">Hi, <span>There</span></h2>
+        </div>
+
+        <!-- ABOUT -->
+        <section class="about_wrap">
+            <div class="intro_info">
+                <p><b>name</b> 한서희</p>
+                <p><b>Birth</b> 95 04 01</p>
+                <p>SouthKorea, Seoul</p>
+                <p>a67114585a@gmail.com</p>
+                <p>010 6711 4585</p>
+            </div>
+
+            <ul class="intro_desc_list" id="about">
+                <li class="intro_text1 intro_text">
+                    <img src="images/sparkles.png" alt="sparkles" class="intro_icon">
+                    <p>무언가 직접 제작한 결과물에 성취감을 얻는 저의 꿈은 프론트엔드 개발자입니다.<br>
+                        머무르지 않고 나아가며 꿈꾸는 개발자가 되기 위해 노력중입니다.</p>
+                </li>
+                <li class="intro_text2 intro_text">
+                    <img src="images/heart-on-fire.png" alt="heart" class="intro_icon">
+                    <p>작은 규모의 이커머스 플랫폼 스타트업에서 첫 커리어를 시작했습니다. <br> 서비스 오픈을 함께 했고, 퍼블리싱과 프론트를 담당했습니다.</p>
+                </li>
+                <li class="intro_text3 intro_text">
+                    <img src="images/smiling-face.png" alt="smile" class="intro_icon">
+                    <p>피드백에 긍정적이며 클린한 코드 작성을 위해 노력합니다. <br>
+                    또한, 다른 직군의 팀원들과의 소통을 중요하게 생각합니다.</p>
+                </li>
+                <li class="intro_text4 intro_text">
+                    <img src="images/power.png" alt="power" class="intro_icon">
+                    <p>성취감은 저의 원동력입니다.<br>
+                        개인의 성장 뿐 아니라 회사의 비즈니스 성장에 관심이 있습니다.<br>
+                        이를 위한 열정과 끈기가 준비되어 있습니다.</p>
+                </li>
+            </ul>
+
+            <a href="#career" class="scroll_circle">
+                <span class="blind">아래로</span>
+            </a>
+        </section>
+
+        <!-- CAREER -->
+        <section id="works" class="career_wrap">
+            <h2 class="title">CAREER</h2>
+            <div class="work_box career">
+                <div class="title">
+                    <h3>로컬프라이스</h3>
+                    <p>가격비교 이커머스 플랫폼</p>
+                    <span>2022.09 ~ 2024.02</span>
+                </div>
+                <ul>
+                    <li>◦ Vue.js의 프레임워크인 Nuxt.js 작업</li>
+                    <li>◦ API연동하여 데이터 가공 및 해당 스토어 상품 데이터 바인딩</li>
+                    <li>◦ VueX store를 이용한 상태관리</li>
+                    <li>◦ 회원가입, 개인정보 수정 등 유효성 검사 구현하여 payload에 데이터 담아 API요청</li>
+                    <li>◦ 카테고리 구현 및 해당 카테고리에 맞는 링크 생성하여 상품 분류</li>
+                    <li>◦ 기획된 이벤트 및 라이브커머스 날짜와 타이머 맞춰 자동 오픈하도록 구현</li>
+                    <li>◦ 슬라이드, 그래프 등 동적인 요소 구현</li>
+                    <li>◦ 컴포넌트 통일, 템플릿화 작업</li>
+                    <li>◦ 전달 받은 기획안과 피그마 디자인 시안 토대로 전체적인 퍼블리싱</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJECT -->
+        <section id="project" class="project_wrap">
+            <h2 class="title">PROJECT</h2>
+
+            <div class="work_box rebider">
+                <div class="title">
+                    <h3>리비더</h3>
+                    <p>중고 물품 경매 플랫폼</p>
+                    <span>2024.03 ~ 진행중</span>
+                        <div class="member">팀 프로젝트 <br>
+                            기획2 / 디자인1 / 프론트2 / 백2
+                        </div>
+                </div>
+                <ul>
+                    <li>◦ React.js와 TypeScript 작업</li>
+                    <li>◦ zustand를 이용한 상태관리</li>
+                    <li>◦ Framer-motion 라이브러리로 동적인 애니메이션 구현</li>
+                    <li>◦ 컴포넌트 구조화</li>
+                    <li>◦ 전달 받은 기획안과 피그마 디자인 시안 토대로 전체적인 퍼블리싱</li>
+                    <li>◦ 웹소켓 이용하여 채팅 구현 작업중</li>
+                </ul>
+
+                <div class="img_wrap">
+                    <img src="images/rebider1.png" alt="리비더">
+                    <img src="images/rebider2.png" alt="리비더">
+                    <img src="images/rebider3.png" alt="리비더">
+                </div>
+            </div>
+
+            <div class="work_box odoq" style="margin-top: 5rem">
+                <div class="title">
+                    <h3>ODOQ</h3>
+                    <p>수학 문제 풀이 커뮤니티 (외주 작업)</p>
+                    <span>2023.04 ~ 2023.06</span>
+                </div>
+                <ul>
+                    <li>◦ 게시판 형식의 커뮤니티 사이트 Nuxt.js로 작업</li>
+                    <li>◦ API연동하여 CRUD 구현과 데이터 바인딩</li>
+                    <li>◦ 기획에 따른 퍼블리싱</li>
+                </ul>
+                <div>
+                    <img class="gif" src="images/odoq_video.gif" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills_wrap" id="skills">
+            <h2>SKILLS</h2>
+            <ul class="card_wrap">
+                <li class="card_box react">
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/react.png" alt="react">
+                        </div>
+                        <div class="back">
+                            <h3>React.js</h3>
+                            <p>컴포넌트 기반의 개발을 지향하며 zustand와 같은 상태 관리 라이브러리와 함께 작업할 수 있습니다. </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card_box nuxt">
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/nuxt.png" alt="nuxt">
+                        </div>
+                        <div class="back">
+                            <h3>Nuxt.js</h3>
+                            <p>Vue.js의 프레임워크인 Nuxt로 작업한 경력이 있습니다.<br/>VueX를 활용하여 상태관리를 합니다.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card_box js">
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/js.png" alt="js">
+                        </div>
+                        <div class="back">
+                            <h3>JavaScript</h3>
+                            <p>함수와 배열, 객체를 이용한 데이터 가공이 가능하며 ES6 활용에 관심이 있습니다.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card_box html">
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/html.png" alt="html">
+                        </div>
+                        <div class="back">
+                            <h3>HTML</h3>
+                            <p>반응형 웹 페이지의 구조를 작성하고 시맨틱한 HTML 요소를 활용하여 웹 페이지의 의미를 명확하게 전달합니다.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card_box css">
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/css.png" alt="css">
+                        </div>
+                        <div class="back">
+                            <h3>CSS</h3>
+                            <p>css와 SCSS를 사용하여 웹 페이지의 스타일링을 합니다. Flex등을 사용한 레이아웃 기술을 사용합니다.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card_box git">
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/git.png" alt="git">
+                        </div>
+                        <div class="back">
+                            <h3>Git</h3>
+                            <p>Git을 사용하여 협업과 브렌치 관리를 하며 프로젝트를 효율적으로 관리합니다.</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="card_box figma">
+                    <div class="card">
+                        <div class="front">
+                            <img src="images/figma.png" alt="figma">
+                        </div>
+                        <div class="back">
+                            <h3>Figma</h3>
+                            <p>UI/UX 디자인을 만들고 프로토타입을 제작할 수 있습니다.
+                                Dev Mode를 사용하여 개발에 활용할 수 있습니다.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="text_area">
+                <div class="flow_text_wrap">
+                    <div class="flow_text_box">
+                        <div class="flow_text">
+                            &nbsp;If you like this, contact me right now! &nbsp;If you like this, contact me right now! &nbsp;If you like this, contact me right now!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact_me" id="contact">
+                <span>📱</span><p>010.6711.4585</p>
+                <span>📧</span><p>a67114585a@gmail.com</p>
+                <div class="footer_bottom">
+                    <a href="https://github.com/Han-seohee" target="_blank" class="github"><img src="images/github2.png" alt="깃허브"></a>
+                    <span class="copy">seohee's Portfolio &copy;</span>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/main.js"></script>
+</body></html>
