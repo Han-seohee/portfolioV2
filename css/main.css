@@ -364,24 +364,10 @@ header span {
     margin-bottom: 3.5rem;
 }
 .work_box {
-    /*display: flex;*/
-    /*justify-content: center;*/
     flex-wrap: wrap;
-}
-.work_box.career {
-    padding: 2rem 0;
     background: #F7F6DC;
     border-radius: 1rem;
-}
-.work_box.rebider {
-    padding: 2rem 0;
-    background: #F7F6DC;
-    border-radius: 1rem;
-}
-.work_box.odoq {
-    padding: 2rem 0;
-    background: #F7F6DC;
-    border-radius: 1rem;
+    padding: 2.5rem 0;
 }
 .work_box .title {
     min-width: 18rem;
@@ -416,6 +402,7 @@ header span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 2rem;
 }
 .work_box .img_wrap img {
     width: 30%;

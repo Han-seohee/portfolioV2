@@ -38,9 +38,12 @@
     }
     .work_box .title {
         text-align: left;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
     }
     .work_box ul {
-        margin: 0 0 0 4rem;
+        margin: 2rem 0 0 4rem;
         min-width: 47rem;
     }
     .work_box ul li {
