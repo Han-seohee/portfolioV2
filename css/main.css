@@ -367,7 +367,7 @@ header span {
     flex-wrap: wrap;
     background: #F7F6DC;
     border-radius: 1rem;
-    padding: 2.5rem 0;
+    padding: 2.5rem 2rem;
 }
 .work_box .title {
     min-width: 18rem;
